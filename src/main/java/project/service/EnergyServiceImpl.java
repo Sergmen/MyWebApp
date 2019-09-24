@@ -20,25 +20,5 @@ public class EnergyServiceImpl implements EnergyService {
         return energyDAOImpl.allEnergy();
     }
 
-    @Override
-    public void add(Energy energy) {
-        energyDAOImpl.add(energy);
-    }
 
-    @Override
-    public void delete(Energy energy) {
-        energyDAOImpl.delete(energy);
-
-    }
-
-    @Override
-    public void edit(Energy energy) {
-        energyDAOImpl.edit(energy);
-
-    }
-
-    @Override
-    public Energy getById(int id) {
-        return energyDAOImpl.getById(id);
-    }
 }

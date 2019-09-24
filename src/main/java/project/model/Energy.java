@@ -12,7 +12,7 @@ public class Energy {
 
     private String Electroenergy;
     private String units;
-    private float fact;
+    private String fact;
 
 
     public void setId(Integer id) {
@@ -31,7 +31,7 @@ public class Energy {
         this.units = units;
     }
 
-    public void setFact(float fact) {
+    public void setFact(String fact) {
         this.fact = fact;
     }
 
@@ -43,7 +43,7 @@ public class Energy {
         return units;
     }
 
-    public float getFact() {
+    public String getFact() {
         return fact;
     }
 
